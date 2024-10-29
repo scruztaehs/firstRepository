@@ -4,51 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I'm [Your Name], a web design enthusiast!</p>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">My Portfolio</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Hi, I'm [Your Name]</h1>
+        <p>A 12th Grader Learning Web Design</p>
     </header>
 
-    <!-- About Me Section -->
+    <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>I’m a 10th grader learning web design. I love creating simple, functional, and stylish websites!</p>
+        <p>I'm a high school student passionate about web design and development. I enjoy creating beautiful, functional websites and am always looking to learn more.</p>
     </section>
 
     <!-- Projects Section -->
     <section id="projects">
         <h2>My Projects</h2>
-        <div class="project" onclick="openProject('Project 1')">
-            <h3>Project 1</h3>
-            <p>A simple website design.</p>
-        </div>
-        <div class="project" onclick="openProject('Project 2')">
-            <h3>Project 2</h3>
-            <p>An interactive game with JavaScript.</p>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>A description of the project goes here.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>A description of the project goes here.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>A description of the project goes here.</p>
+                <a href="#">View Project</a>
+            </div>
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Me</h2>
-        <form id="contactForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <button type="submit">Send Message</button>
-        </form>
+        <p>Let's connect! You can reach me through my social links below:</p>
+        <div class="social-links">
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">GitHub</a>
+            <a href="mailto:your-email@example.com">Email</a>
+        </div>
     </section>
-
-    <footer>
-        <p>&copy; 2024 [Your Name]</p>
-    </footer>
 
     <script src="script.js"></script>
 </body>
