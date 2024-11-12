@@ -1,0 +1,16 @@
+Black Goose BistroThe RestaurantThe Black Goose Bistro offers casual lunch and dinner fare in a hip atmosphere. The menu changes regularly to highlight the freshest ingredients.CateringYou have fun... we'll handle the cooking. Black Goose Catering can handle events from snacks for bridge club to elegant corporate fundraisers.Location and HoursSeekonk, Massachusetts;Monday through Thursday 11am to 9pm, Friday and Saturday, 11am to midnight
+
+
+
+INSTRUCTIONS:
+
+Use the provided text to create a web page with:
+
+1. An external CSS stylesheet. Create style rules that represent the screenshot provided.
+2. An external Javascript file that shows how many reservations are left. Total capacity is 150 people. 
+3. A welcome message to customers upon the page loading.
+3. Create a new Replete project and title it: Functions_Methods_Objects_test_Your_Name
+
+Extension:
+
+Individually challenge yourselves to add pizazz to the page through Javascript and/or CSS.  
